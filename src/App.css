@@ -1,4 +1,4 @@
-body{
+body {
   background-color: aliceblue;
   width: 100vw;
   height: 100vh;
@@ -8,7 +8,7 @@ body{
 .App {
   text-align: center;
 }
-form{
+form {
   display: flex;
   flex-direction: column;
   width: 700px;
@@ -19,44 +19,44 @@ form{
   margin: 50px auto;
   border-radius: 8px;
 }
-.input{
-  padding:10px;
+.input {
+  padding: 10px;
   width: 300px;
   margin: 5px;
   border-radius: 8px;
-  border:none;
+  border: none;
   background-color: aliceblue;
 }
-button{
+button {
   background-color: #333;
-  padding:5px 18px;
-  margin:10px;
-  color:white;
+  padding: 5px 18px;
+  margin: 10px;
+  color: white;
   border-radius: 8px;
   font-size: 1.1rem;
   font-weight: 500;
 }
-.modal{
+.modal {
   background-color: white;
-  padding:5px;
-  color:darkred;
-  width:200px;
-  margin:10px auto;
-  margin-top:30px;
+  padding: 5px;
+  color: darkred;
+  width: 200px;
+  margin: 10px auto;
+  margin-top: 30px;
   border-radius: 8px;
 }
-.person{
-  display:flex;
+.person {
+  display: flex;
   justify-content: space-between;
   width: 700px;
   margin: 5px auto;
   background-color: white;
-  padding:5px 10px;
+  padding: 5px 10px;
 }
-.remove{
-  border:none;
+.remove {
+  border: none;
   background-color: transparent;
-  color:rgb(95, 188, 245);
+  color: rgb(95, 188, 245);
   font-size: 1.1rem;
   font-weight: 500;
 }
