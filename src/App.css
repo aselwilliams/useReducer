@@ -2,10 +2,11 @@ body{
   background-color: aliceblue;
   width: 100vw;
   height: 100vh;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 .App {
   text-align: center;
-
 }
 form{
   display: flex;
@@ -15,16 +16,47 @@ form{
   height: 180px;
   justify-content: center;
   align-items: center;
-  margin: 100px auto;
+  margin: 50px auto;
+  border-radius: 8px;
 }
 .input{
-  padding:8px;
-  width: 250px;
+  padding:10px;
+  width: 300px;
+  margin: 5px;
+  border-radius: 8px;
+  border:none;
+  background-color: aliceblue;
 }
 button{
   background-color: #333;
-  padding:8px 15px;
+  padding:5px 18px;
   margin:10px;
   color:white;
   border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.modal{
+  background-color: white;
+  padding:5px;
+  color:darkred;
+  width:200px;
+  margin:10px auto;
+  margin-top:30px;
+  border-radius: 8px;
+}
+.person{
+  display:flex;
+  justify-content: space-between;
+  width: 700px;
+  margin: 5px auto;
+  background-color: white;
+  padding:5px 10px;
+}
+.remove{
+  border:none;
+  background-color: transparent;
+  color:rgb(95, 188, 245);
+  font-size: 1.1rem;
+  font-weight: 500;
 }

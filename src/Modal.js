@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useEffect} from 'react'
 
-function Modal() {
+function Modal({modalContent, closeModal}) {
+    useEffect(()=>{
+        setTimeout(()=>{
+            closeModal()
+        },3000)
+    })
   return (
-    <div>Modal</div>
+    <div className='modal'>
+        <p>{modalContent}</p>
+    </div>
   )
 }
 
